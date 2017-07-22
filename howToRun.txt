@@ -1,0 +1,1 @@
+python pacman.py -p PacmanQAgent -x 10 -n 40 -l mediumClassic
