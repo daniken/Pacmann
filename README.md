@@ -24,6 +24,6 @@ The feature extraction is done by performing a custom Breadth First Search (BFS)
 
 The training is done online and in batches for each turn meaning that we don't only update with respect to the move pacman just made, but have a set of previous experiences that contain the latest transitions done by the agent. The training set is chosen by randomly sampling from the all previous experiences and the network is trained using stochastic gradient decent.
 
-The used environment was developed by John DeNero, Dan Klein, Pieter Abbeel. Link to course website here.
+The used environment was developed by John DeNero, Dan Klein, Pieter Abbeel.
 
 This project is written in python 2.7. The network is build with Keras, having Theano as backend, on a Ubuntu machine. You will also need HDF5 and h5py for saving/loading the network and its weights (read Keras documentation for more info). The main code can be found in qlearningAgents.py  (few lines in learningAgents.py too).
