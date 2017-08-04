@@ -20,4 +20,13 @@ The training is done online and in batches for each turn meaning that we don't o
 
 The used environment was developed by John DeNero, Dan Klein, Pieter Abbeel. Visit their [homepage](http://ai.berkeley.edu/project_overview.html) for more info about running the project 
 
-This project is written in python 2.7. The network is build with Keras, having Theano as backend, on a Ubuntu machine. You will also need HDF5 and h5py for saving/loading the network and its weights (read Keras documentation for more info). The main code can be found in qlearningAgents.py  (few lines in learningAgents.py too).
+This project is written in python 2.7. The network is build with Keras, having Theano as backend, on a Ubuntu machine. You will also need h5py for saving/loading the network and its weights (read Keras documentation for more info). The main code can be found in qlearningAgents.py  (few lines in learningAgents.py too).
+
+To run the project, execute:
+
+`python pacman.py -p PacmanQAgent`
+
+Use `-l` flag and specify any layout found in the folder "layouts" as such:
+
+`python pacman.py -p PacmanQAgent -l trickyClassic`
+
